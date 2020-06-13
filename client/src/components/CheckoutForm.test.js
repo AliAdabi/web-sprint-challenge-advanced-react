@@ -12,13 +12,13 @@ test("form shows success message on submit with form details", () => {
     const addressInput = getByLabelText(/Address/i);
   
     fireEvent.change(firstNameInput, {
-      target: { name: "firstName", value: "stephen" }
+      target: { name: "firstName", value: "Ali" }
     });
     fireEvent.change(lastNameInput, {
-      target: { name: "lastName", value: "gary" }
+      target: { name: "lastName", value: "Adabi" }
     });
     fireEvent.change(addressInput, {
-      target: { name: "address", value: "2472 S.Bird Lake Rd." }
+      target: { name: "address", value: "708 Duke Cir." }
     });
   
   

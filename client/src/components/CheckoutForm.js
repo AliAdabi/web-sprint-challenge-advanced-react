@@ -33,12 +33,12 @@ const CheckoutForm = (props) => {
         <label htmlFor='firstName'>
           First Name:
           <input
-            name="lastName"
+            name="firstName"
             value={values.firstName}
             onChange={handleChanges}
           />
         </label>
-        <label htmlFor='firstName'>
+        <label htmlFor='lastName'>
           Last Name:
           <input
             name="lastName"
